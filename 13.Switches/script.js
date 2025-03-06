@@ -27,3 +27,26 @@
 //   default:
 //     console.log(`${day} is not a Valid Day`)
 // }
+
+let tastScore = 33;
+let letterGrade;
+
+switch (true) {
+  case tastScore >= 90:
+    letterGrade = "A";
+    break;
+  case tastScore >= 80:
+    letterGrade = "B";
+    break;
+  case tastScore >= 70:
+    letterGrade = "C";
+    break;
+  case tastScore >= 60:
+    letterGrade = "D";
+    break; 
+  default:
+    letterGrade = "F";
+    break;
+  }
+  
+  console.log(letterGrade);
