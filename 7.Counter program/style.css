@@ -1,0 +1,31 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#counterLabel {
+  display: block;
+  font-size: 8em;
+  text-align: center;
+}
+
+#btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.Buttons {
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 15px 20px;
+  background-color: #2db5c7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Buttons:hover {
+  background-color: #189abe;
+}
